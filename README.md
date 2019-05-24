@@ -1,32 +1,13 @@
 # DRRRT-motion-planning
 
-(This README is temporary; more information will be added later)
+This repository contains a custom simulator written to analyze the
+effectiveness of "Dynamic Region-biased Rapidly-exploring Random Trees" in
+robotic motion planning applications (compared to "standard" RRT).
 
-This custom simulator is implemented in Python 3 and should run in any standard
-Python interpreter.
+A brief presentation on the DRRRT strategy can be viewed
+[here](presentation/slides.pdf).
 
-We depend on the following libraries:
-  - matplotlib: for figure generation and plotting
-  - numpy: for general array/vector manipulation
-  - shapely: for handling of planar polygons
+A more comprehensive report can be read [here](report/report.pdf).
 
-All of which can be installed with pip (e.g. "pip install \<package name\>").
-
-Most of the Python files contain helper classes. The important scripts are:
-  - Tests/Reeb/reeb_barrier_test.py
-    - Creates and plots the Reeb Graph example in Figure 1
-  - Figures/sampling_region_visualization.py
-    - Creates and plots the DRRRT growth example in Figure 2
-  - Figures/problem_configurations.py
-    - Creates and plots the problem configurations in Figure 3
-  - performance_tests.py
-    - Runs the experiments and saves the metrics shown in the table of Figure 4
-  - Figures/performance_boxplots.py
-    - Plots the boxplots of the experiment results in Figure 5
-  - Figures/rrt_narrow_passages.py
-    - Creates the "narrow passages RRT problem" figure from the presentation
-  - Figures/rrt_hallway_suboptimal.py
-    - Creates the "suboptimal RRT performance" figure from the presentation
-  - Figures/final_paths.py
-    - Creates the final paths figure at the end of the presentation
-
+More information on the implementation itself can be found in the
+[DRRRT README](DRRRT/README.md).
