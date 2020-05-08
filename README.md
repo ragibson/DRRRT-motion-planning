@@ -1,5 +1,7 @@
 # DRRRT-motion-planning
 
+![maze example](readme_maze_example.png)
+
 This repository contains a custom simulator written to analyze the
 effectiveness of "Dynamic Region-biased Rapidly-exploring Random Trees" in
 robotic motion planning applications (compared to "standard" RRT).
